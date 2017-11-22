@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from './main';
+import App from './pagedraw/main';
+import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Main />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
